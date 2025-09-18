@@ -75,7 +75,7 @@ body .section-1 .left-elements button {
 body .section-2 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding-left: 150px;
     padding-right: 150px;
@@ -83,9 +83,25 @@ body .section-2 {
     padding-bottom: 50px;
 }
 
-body .section-2 img {
-    width: 200px;
-    height: auto;
+body .section-2 .images-and-texts img {
+    width: 175px;
+    height: 175px;
+    border-radius: 20px;
+    border: 2px blue solid;
+}
+
+body .section-2 .images-and-texts .element-1,
+body .section-2 .images-and-texts .element-2,
+body .section-2 .images-and-texts .element-3,
+body .section-2 .images-and-texts .element-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+body .section-2 .images-and-texts p {
+   text-align: center;
 }
 
 body .section-2 .images-and-texts {
